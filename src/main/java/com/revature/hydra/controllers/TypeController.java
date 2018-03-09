@@ -1,4 +1,4 @@
-package com.revature.caliber.controllers;
+package com.revature.hydra.controllers;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -13,15 +13,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.revature.caliber.model.AssessmentType;
-import com.revature.caliber.model.InterviewFormat;
-import com.revature.caliber.model.NoteType;
-import com.revature.caliber.model.PanelStatus;
-import com.revature.caliber.model.QCStatus;
-import com.revature.caliber.model.SkillType;
-import com.revature.caliber.model.TrainerRole;
-import com.revature.caliber.model.TrainingStatus;
-import com.revature.caliber.model.TrainingType;
+import com.revature.bean.AssessmentType;
+import com.revature.bean.InterviewFormat;
+import com.revature.bean.NoteType;
+import com.revature.bean.PanelStatus;
+import com.revature.bean.QCStatus;
+import com.revature.bean.SkillType;
+import com.revature.bean.TrainerRole;
+import com.revature.bean.TrainingStatus;
+import com.revature.bean.TrainingType;
 
 
 /**

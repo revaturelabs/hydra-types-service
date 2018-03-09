@@ -1,4 +1,4 @@
-package com.revature.caliber;
+package com.revature.hydra;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,7 +23,7 @@ public class TypesServiceApplication {
     public Docket api() { 
         return new Docket(DocumentationType.SWAGGER_2)  
           .select()                                  
-          .apis(RequestHandlerSelectors.basePackage("com.revature.caliber.controller"))              
+          .apis(RequestHandlerSelectors.basePackage("com.revature.hydra.controller"))              
           .paths(PathSelectors.any())                          
           .build();
     }
