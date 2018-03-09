@@ -24,15 +24,15 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.revature.bean.AssessmentType;
-import com.revature.bean.InterviewFormat;
-import com.revature.bean.NoteType;
-import com.revature.bean.PanelStatus;
-import com.revature.bean.QCStatus;
-import com.revature.bean.SkillType;
-import com.revature.bean.TrainerRole;
-import com.revature.bean.TrainingStatus;
-import com.revature.bean.TrainingType;
+import com.revature.beans.AssessmentType;
+import com.revature.beans.InterviewFormat;
+import com.revature.beans.NoteType;
+import com.revature.beans.PanelStatus;
+import com.revature.beans.QCStatus;
+import com.revature.beans.SkillType;
+import com.revature.beans.TrainerRole;
+import com.revature.beans.TrainingStatus;
+import com.revature.beans.TrainingType;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
