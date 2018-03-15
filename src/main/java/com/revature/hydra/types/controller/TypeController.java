@@ -1,4 +1,4 @@
-package com.revature.hydra.controller;
+package com.revature.hydra.types.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
